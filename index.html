@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TechZone Gadget Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #111;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+
+      section {
+            padding: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #00bcd4;
+        }
+        .product {
+            background: white;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+            width: 30%;
+            vertical-align: top;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+        .product img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+        .offer {
+            background: #ff9800;
+            color: white;
+            padding: 5px;
+            display: inline-block;
+            margin-bottom: 5px;
+            font-size: 12px;
+            border-radius: 3px;
+        }
+        /* Aluthin add kala offer style eka */
+        .promo-text {
+            color: #d32f2f;
+            font-size: 13px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>TechZone Gadget Store</h1>
+    <p>Your One-Stop Shop for Latest Electronics</p>
+</header>
+
+<nav>
+    <a href="#smartphones">Smartphones</a>
+    <a href="#laptops">Laptops</a>
+    <a href="#audio">Audio & Headphones</a>
+    <a href="#wearables">Smartwatches</a>
+    <a href="#gaming">Gaming</a>
+</nav>
+
+<section id="smartphones">
+    <h2>📱 Smartphones</h2>
+
+    <div class="product">
+        <span class="offer">New Arrival</span>
+        <img src="https://images.unsplash.com/photo-1695048133021-be2def43f3b2?q=80&w=1470&auto=format&fit=crop">
+        <h3>iPhone 15</h3>
+        <p>Latest Apple smartphone with A16 chip.</p>
+        <p class="price">LKR 299,999</p>
+        <p class="promo-text">🔥 10% Discount for Credit Cards!</p>
+        <p>Available</p>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1772182137994-4158ac33bddd?q=80&w=1332&auto=format&fit=crop">
+        <h3>Samsung Galaxy S23</h3>
+        <p>Powerful Android flagship with great camera.</p>
+        <p class="price">LKR 183,999</p>
+        <p class="promo-text">🎁 Free Silicon Cover Included</p>
+        <p>Available</p>
+    </div>
+
+    <div class="product">
+        <span class="offer">Special Offer</span>
+        <img src="https://images.unsplash.com/photo-1657731739178-18018dc42854?q=80&w=1332&auto=format&fit=crop">
+        <h3>OnePlus 11</h3>
+        <p>Fast performance with smooth display.</p>
+        <p class="price">LKR 67,999</p>
+        <p class="promo-text">⚡ Flash Sale: Save LKR 5,000!</p>
+        <p>Limited Stock</p>
+    </div>
+</section>
+
+<section id="laptops">
+    <h2>💻 Laptops</h2>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1717865499857-ec35ce6e65fa?w=400&auto=format&fit=crop&q=60">
+        <h3>MacBook Air M2</h3>
+        <p>Lightweight laptop with powerful performance.</p>
+        <p class="price">LKR 253,999</p>
+        <p class="promo-text">🎒 Free Laptop Bag & Wireless Mouse</p>
+        <p>Available</p>
+    </div>
+
+    <div class="product">
+        <span class="offer">Special Offer</span>
+        <img src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8?w=400&auto=format&fit=crop&q=60">
+        <h3>Dell XPS 13</h3>
+        <p>Premium ultrabook with sleek design.</p>
+        <p class="price">LKR 189,999</p>
+        <p class="promo-text">🛡️ 2 Years Extended Warranty</p>
+        <p>Available</p>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1589561084283-930aa7b1ce50?w=400&auto=format&fit=crop&q=60">
+        <h3>HP Pavilion 15</h3>
+        <p>Affordable laptop for everyday use.</p>
+        <p class="price">LKR 97,999</p>
+        <p class="promo-text">💵 0% Installment Plans Available</p>
+        <p>In Stock</p>
+    </div>
+</section>
+
+<section id="audio">
+    <h2>🎧 Audio & Headphones</h2>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1612858250434-b5358e2b3625?w=400&auto=format&fit=crop&q=60">
+        <h3>Sony WH-1000XM5</h3>
+        <p>Noise-canceling premium headphones.</p>
+        <p class="price">LKR 41,999</p>
+        <p class="promo-text">💰 LKR 2,000 Instant Cashback</p>
+        <p>Available</p>
+    </div>
+
+    <div class="product">
+        <span class="offer">New Arrival</span>
+        <img src="https://images.unsplash.com/photo-1593442607435-e4e34991b210?w=400&auto=format&fit=crop&q=60">
+        <h3>AirPods Pro 2</h3>
+        <p>Wireless earbuds with spatial audio.</p>
+        <p class="price">LKR 35,999</p>
+        <p class="promo-text">✨ Free Apple Music for 3 Months</p>
+        <p>Available</p>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1715645970186-7a9d6d816b49?w=400&auto=format&fit=crop&q=60">
+        <h3>JBL Tune 760NC</h3>
+        <p>Affordable noise-canceling headphones.</p>
+        <p class="price">LKR 25,999</p>
+        <p class="promo-text">🚚 Free Delivery Islandwide</p>
+        <p>In Stock</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 TechZone Gadget Store | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
